@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <div class="container">
+      <div class="main">
+        <form id="myform">
+          <div>
+            <label for="title">Todo Name:</label>
+            <input type="text" id="title" name="title" />
+          </div>
+          <div>
+            <label for="desc">Description:</label>
+            <input type="text" name="description" id="desc" />
+          </div>
+          <div>
+            <button type="submit">Add Todo</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container" style="flex-direction: column">
+      <div>
+        <ul id="taskPending">
+          <h2>Pending Todo</h2>
+          
+        </ul>
+      </div>
+      <div>
+        <ul id="taskCompleted">
+          <h2>Completed Todo</h2>
+          
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
