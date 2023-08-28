@@ -18,6 +18,7 @@ h1 {
   height: 165px;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 12px;
   font-size: 20px;
 }
@@ -26,6 +27,7 @@ h1 {
   height: 25px;
   margin: 15px 0;
   font-size: 18px;
+  margin-left: 5px;
 }
 
 .main button {
@@ -35,6 +37,7 @@ h1 {
   cursor: pointer;
   color: #fff;
   font-size: 16px;
+  width: 100%;
 }
 
 .main button:hover {
@@ -43,6 +46,7 @@ h1 {
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 li {
@@ -52,6 +56,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 10px;
 }
 
 i {
